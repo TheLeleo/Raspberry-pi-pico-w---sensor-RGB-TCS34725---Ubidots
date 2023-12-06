@@ -3,7 +3,7 @@
 O diagrama de blocos abaixo ilustra a conexão e a comunicação I2C entre o Raspberry Pi Pico e o sensor de cor TCS34725. Ele apresenta os principais componentes e as conexões necessárias para a leitura das cores por meio do protocolo I2C.
 
 
-## Descrição dos Componentes:
+# Descrição dos Componentes:
 
 ### Raspberry Pi Pico:
 - Microcontrolador responsável por controlar o processo de leitura do sensor.
@@ -13,7 +13,7 @@ O diagrama de blocos abaixo ilustra a conexão e a comunicação I2C entre o Ras
 - Sensor de cor que mede as intensidades de luz nas faixas vermelha, verde e azul.
 - Possui um endereço I2C específico para comunicação.
 
-## Conexões:
+# Conexões:
 
 ### SDA (Serial Data):
 - Conecta o pino SDA do Raspberry Pi Pico ao pino correspondente no sensor TCS34725.
@@ -27,10 +27,12 @@ O diagrama de blocos abaixo ilustra a conexão e a comunicação I2C entre o Ras
 # Montagem
 ## Pinos da placa a serem utilizados
 <img src="./imgs/5.png">
+
 ## Pinos do sensor a serem utilizados
 <img src="./imgs/6.png">
 <img src="./imgs/7.png">
-## Funcionamento:
+
+# Funcionamento:
 
 1. O Raspberry Pi Pico inicia a comunicação I2C com o sensor TCS34725.
 2. A função `configure_sensor` é chamada para enviar comandos de configuração ao sensor.
