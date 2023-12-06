@@ -25,7 +25,9 @@ O diagrama de blocos abaixo ilustra a conexão e a comunicação I2C entre o Ras
 
 
 # Montagem
+## Pinos da placa a serem utilizados
 <img src="./imgs/5.png">
+## Pinos do sensor a serem utilizados
 <img src="./imgs/6.png">
 <img src="./imgs/7.png">
 ## Funcionamento:
