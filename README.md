@@ -23,6 +23,11 @@ O diagrama de blocos abaixo ilustra a conexão e a comunicação I2C entre o Ras
 - Conecta o pino SCL do Raspberry Pi Pico ao pino correspondente no sensor TCS34725.
 - Canal de comunicação unidirecional para sincronização de dados.
 
+
+# Montagem
+<img src="./imgs/5.png">
+<img src="./imgs/6.png">
+<img src="./imgs/7.png">
 ## Funcionamento:
 
 1. O Raspberry Pi Pico inicia a comunicação I2C com o sensor TCS34725.
